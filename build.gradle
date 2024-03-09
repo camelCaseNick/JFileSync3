@@ -175,6 +175,7 @@ distZip {
     from 'xdg'
     include '**/*.desktop'
     include '**/*.png'
+    include '**/*.xml'
   }
   // legal stuff, examples, and documentation
   into(project.name) {
